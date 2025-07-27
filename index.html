@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,38 @@
 
 <body>
     <header class="header">
-        <div class="header__brand">
-            <img class="brand__logo" src="./assets/images/Logo portfolio2.1.png" alt="Logo IM">
-        </div>
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    <div class="header__brand">
+        <img class="brand__logo" src="./assets/images/Logo_clara_1 sem fundo.png" alt="Logo IM">
+    </div>
+    <div class="header__toggle">
         <i id="toggleTheme" class="bi bi-sun"></i>    
+    </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -47,9 +73,61 @@
             </li>
         </ul>
     </nav>
-
-
-    <h1>Ingrid Machado</h1>
-    
+    <main>
+        <div class="main__content1">
+            <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+            <p>Ingrid Machado, Recife-PE, Desenvolvedora Front-end.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn btn--primary">
+                <span>Ver Projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </div>  
+    </main>
+    <section class="skills">
+        <h2>Conhecimento nas principais tecnologias do mercado</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-js-1.png" alt="logo js"> 
+            </li>
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-html5-1.png" alt="logo html"> 
+            </li>
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-css3-1.png" alt="logo css"> 
+            </li>
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-linux-1.png" alt="logo linux"> 
+            </li>
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-java-1.png" alt="logo java"> 
+            </li>
+            <li class="skills__item">
+               <img class="skills__logo" src="./assets/images/logo-mysql.png" alt="logo mysql"> 
+            </li>            
+        </ul>
+    </section>
+    <footer>
+        <p>
+            © 2025. Todos os Direitos Reservados. Ingrid Machado. Desenvolvido por <a href="https://github.com/ingridev-cf">IM</a>. 
+        </p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
