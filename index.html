@@ -94,33 +94,170 @@
                     </a>
                 </li>
             </ul>
-            <button class="btn btn--primary">
-                <span>Ver Projetos</span>
-                <i class="bi bi-arrow-down-right"></i>
-            </button>
+            <a href="#projetos">
+                <button class="btn btn--primary">
+                    <span>Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
         </div>  
     </main>
-    <section class="skills">
+    <section class="technologies">
         <h2>Conhecimento nas principais tecnologias do mercado</h2>
-        <ul class="skills__list">
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-js-1.png" alt="logo js"> 
+        <ul class="technologies__list">
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-js-1.png" alt="logo js"> 
             </li>
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-html5-1.png" alt="logo html"> 
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-html5-1.png" alt="logo html"> 
             </li>
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-css3-1.png" alt="logo css"> 
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-css3-1.png" alt="logo css"> 
             </li>
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-linux-1.png" alt="logo linux"> 
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-linux-1.png" alt="logo linux"> 
             </li>
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-java-1.png" alt="logo java"> 
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-java-1.png" alt="logo java"> 
             </li>
-            <li class="skills__item">
-               <img class="skills__logo" src="./assets/images/logo-mysql.png" alt="logo mysql"> 
+            <li class="technologies__item">
+               <img class="technologies__logo" src="./assets/images/logo-mysql.png" alt="logo mysql"> 
             </li>            
+        </ul>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="./assets/images/projects/tela1 desktop.png" alt="mobile screen discord">
+                <div class="card__body">
+                    <h3 class="card__title">Replicando Homepage do Discord</h3>
+                    <p class="card__description">Projeto Formação CSS DIO</p>
+                    <ul class="card__list">
+                        <li id="list__disc">Responsividade</li>
+                        <li id="list__disc">Flex Box</li>
+                        <li id="list__disc">Display Grid</li>
+                    </ul>
+                    <ul class="technologies__used">
+                        <li class="technologies__icon">
+                            <i class="bi bi-javascript"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-filetype-html"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-filetype-css"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-tux"></i> 
+                        </li>          
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span>Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                        <button class="btn">
+                            <span>Repositório</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="./assets/images/projects/tela1 youtube desktop.png" alt="mobile screen discord">
+                <div class="card__body">
+                    <h3 class="card__title">Replicando Homepage do Youtube</h3>
+                    <p class="card__description">Projeto Formação CSS DIO</p>
+                    <ul class="card__list">
+                        <li id="list__disc">Grid Layout</li>
+                        <li id="list__disc">Posicionamento</li>
+                    </ul>
+                    <ul class="technologies__used">
+                        <li class="technologies__icon">
+                            <i class="bi bi-javascript"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-filetype-html"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-filetype-css"></i> 
+                        </li>
+                        <li class="technologies__icon">
+                            <i class="bi bi-tux"></i> 
+                        </li>          
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span>Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                        <button class="btn">
+                            <span>Repositório</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ingridev-cf/">
+                <button class="btn btn--primary">
+                    <span>Ver todos os projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="./assets/images/avatar.png" alt="">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>Ingrid Machado. Futura desenvolvedora. Atualmente cursando Análise e Desenvolvimento de Sistemas. Construindo as bases e habilidades para ser uma excelente profissional. Apaixonada por tecnologia, café e crossfit!</p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Avançado | Francês: Básico | Espanhol: Básico</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/ingrid-machado-5007a817b/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span>Conecte-se comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contate-me</h2>
+        <p>Estou disponível para serviços e novas conexões. Contate-me via e-mail e conecte-se comigo através das minhas redes sociais.
+        </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/ingridev-cf" target="_blank">
+                    <i class="menu__icon bi bi-github"></i>
+                    <span>Github</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/ingrid-machado-5007a817b/" target="_blank">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                    <span>Linkedin</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.instagram.com/ingrid.machadocf/" target="_blank">
+                    <i class="menu__icon bi bi-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
         </ul>
     </section>
     <footer>
